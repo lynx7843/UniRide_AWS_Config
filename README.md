@@ -41,10 +41,10 @@ This repository contains the initial setup required for the **UniRide** front-en
 ## 📖 DynamoDB Setup
 
 <P>
-   Manually Create the following tables with the listed strcture in the given json files. All other attributes required by the tables will be auto-filled with the use of lambda functions or hardware module.
+   Manually Create the following tables with the listed strcture in the given json files. All other attributes required by the tables will be auto-filled with the use of lambda functions when entering data.
 </p>
 
-* Bookings
+# Bookings
 ```bash
 {
   "bookingId": {
@@ -1195,4 +1195,11 @@ export const handler = async (event) => {
   }
 };
 ````
+
+## ⚙️ IAM SetUp
+
+* Go to the configuration tab at the **Lambda Function page**.
+*
+
+## 🗝️ API Gateway
 
