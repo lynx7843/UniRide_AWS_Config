@@ -13,6 +13,7 @@
     <a href="#-lambda-functions">Lambda Functions</a> •
     <a href="#-iam-setup">IAM SetUp</a> •
     <a href="#-api-gateway">API Gateway</a> •
+    <a href="#-gps-module">GPS Module</a>
   </h4>
 </div>
 
@@ -20,7 +21,7 @@
 
 ## ✨  About
 
-This repository contains the initial setup required for the **UniRide** front-end (web and mobile applications) to work properly.
+This repository contains the initial setup required for the **UniRide** front-end (web and mobile applications) to work properly and the circuit digram for the GPS Module.
 
 | Project | Repository |
 |---|---|
@@ -1206,4 +1207,12 @@ export const handler = async (event) => {
 
 ## 🗝️ API Gateway
 
-* Search for 
+* Search for API Gateway in the AWS console.
+* Create API and give it a name (example: GPS_API).
+* At **Routes** click on Create.
+* Give the API Route a name (reflecting on its lambda function) and select method appropriate to it.
+* After creating it click on the method assign to that specific route.
+* Click on **Attach Integration** then select the lambda function for it at the drop down menu. Confirm to save.
+
+## 📍 GPS Module
+<img src="Diagram/esp32.jpg" alt="Home" width="200"><br><b>Home</b>
