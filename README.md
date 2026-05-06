@@ -1215,4 +1215,4 @@ export const handler = async (event) => {
 * Click on **Attach Integration** then select the lambda function for it at the drop down menu. Confirm to save.
 
 ## 📍 GPS Module
-<img src="Diagram/esp32.jpg" alt="Home" width="200"><br><b>Home</b>
+<img src="Diagram/esp32.png" alt="Diagram" width="200"><br>
